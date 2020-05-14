@@ -61,17 +61,13 @@ header {
   a:hover {
     text-decoration: underline;
   }
-  .site-subtitle,
-  .site-title {
-    text-align: center;
-    color: whitesmoke;
-  }
-  
+
   .site-subtitle {
     font-style: italic;
     font-weight: lighter;
     text-align: center;
     font-size: 2em;  
+    color: whitesmoke;
   }
 
   .img-portfolio {
