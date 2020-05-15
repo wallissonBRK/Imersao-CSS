@@ -62,6 +62,11 @@ header {
     text-decoration: underline;
   }
 
+  .site-title {
+    text-align: center;
+    color: whitesmoke;
+  }
+
   .site-subtitle {
     font-style: italic;
     font-weight: lighter;
