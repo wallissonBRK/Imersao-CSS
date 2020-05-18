@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wallisson Lopes</title>
     <link rel="stylesheet" href="CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6107f25983.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <nav class="menu">
-          <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-          </ul>
-        </nav> 
-	    
-        <div>
-        <h1 class="site-title"> Wallisson Lopes </h1>
-        <h2 class="site-subtitle"> Programador Jr. </h2>
-	</div>	
-		
+            <ul class="container">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Área de Conhecimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="titulo">
+            <h1 class="site-title"> Wallisson Lopes </h1>
+            <h2 class="site-subtitle"> Programador Jr. </h2>
+        </div>
+
     </header>
-    <section>
-		<h2>Portfólio</h2>
-		<figure>
-			<img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-			<figcaption>eCommerce</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-			<figcaption>Mobile</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-			<figcaption>Web design</figcaption>
-		</figure>
-		<figure>
-			<img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-			<figcaption>Projetos pessoais</figcaption>
-		</figure>
-	</section>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+
+        <figure class="avatar">
+            <img src="./img/foto.jpg" alt="Wallisson L. Guevara">
+        </figure>
+
+        <p>
+            O Naruto pode ser um pouco duro às vezes talvez você não saiba disso mas o Naruto também cresceu sem pai
+        </p>
+
+        <p>
+            Na verdade ele nunca conheceu nenhum de seus pais e nunca teve nenhum amigo em nossa aldeia fesmo assim eu nunca vi ele chorar ficar zangado ou se dar por vencido
+        </p>
+
+        <p>
+            Ele está sempre disposto a melhorar, ele quer ser respeitado é o sonho dele e o Naruto daria a vida por isso sem hesitar
+        </p>
+
+        <p>
+            meu palpite é que ele se cansou de chorar e decidiu fazer alguma coisa a respeito!
+        </p>
+
+        <p id="alura">
+            Este site foi construído durando a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da alura! 😎</a>
+        </p>
+    </section>
+
+    <section class="portfolio container" id="portfolio">
+        <h2>Área de Conhecimento</h2>
+        <div class="grid">
+            <figure>
+                <img class="img-portfolio" id="lingC" src="./img/linguagem-c.png" alt="linguagemC">
+                <figcaption class="linguagens">Linguagem C</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" src="./img/linguagem-csharp.png" alt=">linguagemC#">
+                <figcaption class="linguagens">Linguagem C#</figcaption>
+            </figure>
+            <figure>
+                <img class="img-portfolio" id="web" src="./img/hmtl-css-js.png" alt="linguagemWeb">
+                <figcaption class="linguagens">HTML CSS JS</figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="contato container" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+            <a target="_blank" href="https://github.com/wallissonBRK">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/wallisson.lopesguevara">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/wallisson864/">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </section>
 </body>
+
 </html>
